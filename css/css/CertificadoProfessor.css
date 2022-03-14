@@ -1,0 +1,28 @@
+
+#tabela > tbody > tr > td:nth-child(3),
+#tabela > tbody > tr > td:nth-child(4),
+#tabela > tbody > tr > td:nth-child(5),
+#tabela > tbody > tr > td:nth-child(6),
+#tabela > tbody > tr > td:nth-child(7){
+  text-align: center;
+}
+
+#tabela > thead > tr > th:nth-child(1) {
+  width: 9% !important;
+}
+
+#tabela > thead > tr > th:nth-child(2) {
+  width: 29% !important;
+}
+
+#tabela > thead > tr > th:nth-child(3),
+#tabela > thead > tr > th:nth-child(4),
+#tabela > thead > tr > th:nth-child(5),
+#tabela > thead > tr > th:nth-child(6),
+#tabela > thead > tr > th:nth-child(7){
+  width: 9% !important;
+}
+
+.btn-acao {
+  width: 48% !important;
+}

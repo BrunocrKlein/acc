@@ -1,0 +1,162 @@
+body {
+  background-color: #eee
+}
+
+li {
+  list-style: none!important;
+}
+
+.nav-link:hover {
+  background-color: #525252!important;
+  text-align: center;
+}
+
+.text-light {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important;
+  margin-left: 0vh;
+  white-space: nowrap;
+}
+
+.row {
+  --bs-gutter-x: 0.0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.p-3 {
+  padding: 1rem!important;
+  width: 13%;
+  text-align: center;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.0rem);
+  padding-left: var(--bs-gutter-x,.0rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dropdown-item:hover {
+  color: #1e2125;
+  background-color: #525252!important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  margin-left: 80px;
+}
+
+.MenuDropdown, .dropdown-menu.show{
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+  color:rgb(59, 36, 36);
+  border-radius: 2px;
+  border-left: none;
+  top: -1px!important;
+  margin-left: 16px;
+}
+
+.dropdown-menu{
+  min-width: 14rem;
+  margin-left: 12vh;
+}
+
+.botaocadastro{
+  margin-bottom: 5px;
+}
+
+.nav-link{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  text-align: center;
+  margin-right: 7vh;
+}
+
+.nav-link:hover {
+  background-color: #525252!important;
+  margin-right: -1vh;
+
+}
+
+.nav-link:focus {
+  background-color: #525252!important;
+}
+
+.nav-link .fa {
+  transition: all 1s
+}
+
+.nav-link:hover .fa {
+  transform: rotate(360deg)
+}
+
+.pesquisa {
+  width: 200px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.extensao {
+  width: 200px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: yellow;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+.ensino {
+  width: 200px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.culturais {
+  width: 200px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+#divContainer {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
